@@ -5,7 +5,7 @@ class Animal{
     }
 
     falar(){ //nao usa function no assinatura
-        console.log(this.nome + "fez barulho")
+        console.log(this.nome + " fez barulho")
     }
 
 }
