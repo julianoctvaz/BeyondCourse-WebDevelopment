@@ -1,8 +1,10 @@
 1. Beter use always let instead var
 2. node.js interprets code as a browser
-2.1 node.js is JS runtime builder. 
+node.js is JS runtime builder. 
 Actually, it interprets code. But not just that. 
 Inside, it has a vitual machine. V8 is a VirtualMachine
 basically which has an interpreter and multiple compilers, 
 like JIT (just in time compiler), and optimizers.
+Node.js has a npm, node package manager. Dependecies, etc.
+Node.js allow you to create servers, CLI (command-line interface tool), etc.
 3. Be careful with callback (nested functions/code block)
