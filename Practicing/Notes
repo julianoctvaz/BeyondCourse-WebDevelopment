@@ -11,7 +11,8 @@ Node.js allow you to create servers, CLI (command-line interface tool), etc.
 4. Em vue, uma boa prática sobre props é que, Props nao deve sofrer atribuicoes depois de criada, devem ser somente lidas.
 5. v-bind: é uma diretiva tao usada que é reduzida a somente :
 6. $emit (sender) and $event (reciever) para troca de dados entre componentes com uso do v-bind:
-7. v-bind permite operacao ternária
+7. v-bind permite operacao ternária.
 8. @click é o mesmo v-on:click? A mim, representa baixa ortogonalidade do frame em especial na juncao de eventos e diretivas.
 Directive shorthands (: for v-bind:, @ for v-on: and # for v-slot) should be used always or never.
-9. 
+9. v-model é a diretiva que faz 2-way data binding.
+10. Rola uma interpolacao de string tb {{ string }}.
